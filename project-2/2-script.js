@@ -1,14 +1,14 @@
-const button1=
+const addJs =
 document.getElementById('addJs');
-const message1 =
-document.getElementById('msgg');
-document.addEventListener('click',() =>{
-    message1.textContent = 'added'
-});
-const button2 =
+const removeJs =
 document.getElementById('removeJs');
-const message2 =
-document.getElementById('msgg1');
-document.addEventListener('click',()=>{
-    message2.textContent = 'your left'
+const msg =
+document.getElementById('mesg');
+
+addJs.addEventListener('click', () => {
+    msg.textContent = 'added';
 });
+removeJs.addEventListener('click',() => {
+    msg.textContent = 'you left';
+});
+
