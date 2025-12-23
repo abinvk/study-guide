@@ -14,8 +14,13 @@ body{
 .btn{
     height: 45px;
     width: 105px;
-    top: 300px;
+    top: 280px;
     position: relative;
     cursor: pointer;
     border-radius: 45px;
+}
+
+#count{
+    text-align: center;
+    font-size: 50px;
 }
